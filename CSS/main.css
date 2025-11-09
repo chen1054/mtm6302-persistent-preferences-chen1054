@@ -1,0 +1,47 @@
+/* General transition */
+body {
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Themes */
+body.light {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+body.pastel {
+  background-color: #f3ecff;
+  color: #4a3d55;
+}
+
+/* List styles */
+.list-group-item {
+  transition: all 0.2s ease-in-out;
+}
+
+.list-group.expanded .list-group-item {
+  padding: 1rem;
+}
+
+.list-group.compact .list-group-item {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.list-group.bordered .list-group-item {
+  border: 2px solid #dee2e6;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem;
+  }
+}

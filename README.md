@@ -1,1 +1,4 @@
-# mtm6302-persistent-preferences-chen1054
+# persistent-preferences
+> Student Name: Xinyan Chen
+>
+> Student Number: 041165364
